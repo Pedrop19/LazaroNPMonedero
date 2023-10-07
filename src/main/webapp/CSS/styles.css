@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3B429F;
+}
+
+.formulario{
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+    border: 1px solid;
+    width: 19vw;
+    padding: 20px;
+    background-color: #AA7DCE;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.formulario h2{
+    margin-bottom: 20px;
+}
+
+.main-container{
+    display: grid;
+    justify-content: center;
+}
+
+.formulario input[type="submit"]{
+    width: 100px;
+    background-color: #F5D7E3;
+    height: 30px;
+    margin-left: 40px;
+}
